@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-10-20T00:31:47.641Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="ZNy5Q8VyhIJcVOA3r4X_" version="22.0.3" type="device">
+<mxfile host="Electron" modified="2023-10-21T01:07:05.846Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="t5fmWQ3d-qeJ0z9OHaQp" version="22.0.3" type="device">
   <diagram name="Page-1" id="uLq_MlZxw3ZsoGOFZqPO">
-    <mxGraphModel dx="5129" dy="1409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2359" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
         <mxCell id="YU63xsp-6MmmN9PyvZP0-5" value="Issued by: Option&amp;lt;list&amp;lt;int&amp;gt;&amp;gt;&lt;br&gt;(member.id)" style="rounded=0;whiteSpace=wrap;html=1;" parent="CugVqRCdkoVX9YdtHMD1-11" vertex="1">
           <mxGeometry x="30" y="270" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-2" value="Applied: bool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CugVqRCdkoVX9YdtHMD1-11">
+        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-2" value="Applied: bool" style="rounded=0;whiteSpace=wrap;html=1;" parent="CugVqRCdkoVX9YdtHMD1-11" vertex="1">
           <mxGeometry x="30" y="310" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hgocp0C8wLDLiAGPXzZ_-30" value="" style="group;strokeWidth=2;" parent="1" vertex="1" connectable="0">
@@ -146,13 +146,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-1" value="Apply and revoke punishments according to the database status" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hgocp0C8wLDLiAGPXzZ_-14">
+        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-1" value="Apply and revoke punishments according to the database status" style="rounded=1;whiteSpace=wrap;html=1;" parent="hgocp0C8wLDLiAGPXzZ_-14" vertex="1">
           <mxGeometry x="10" y="70" width="260" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-3" value="Monitor the vote&#39;s expiry date.&lt;br&gt;Notify the vote in all related channels. (message.&lt;em class=&quot;property&quot;&gt;&lt;/em&gt;&lt;span class=&quot;sig-name descname&quot;&gt;jump_url)&lt;/span&gt;&lt;a title=&quot;Permalink to this definition&quot; href=&quot;https://discordpy.readthedocs.io/en/latest/api.html#discord.Message.jump_url&quot; class=&quot;headerlink&quot;&gt;&lt;/a&gt;&lt;br&gt;Take action according to the results." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hgocp0C8wLDLiAGPXzZ_-14">
+        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-3" value="Monitor the vote&#39;s expiry date.&lt;br&gt;Notify the vote in all related channels. (message.&lt;em class=&quot;property&quot;&gt;&lt;/em&gt;&lt;span class=&quot;sig-name descname&quot;&gt;jump_url)&lt;/span&gt;&lt;a title=&quot;Permalink to this definition&quot; href=&quot;https://discordpy.readthedocs.io/en/latest/api.html#discord.Message.jump_url&quot; class=&quot;headerlink&quot;&gt;&lt;/a&gt;&lt;br&gt;Take action according to the results." style="rounded=1;whiteSpace=wrap;html=1;" parent="hgocp0C8wLDLiAGPXzZ_-14" vertex="1">
           <mxGeometry x="10" y="150" width="260" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-4" value="Monitor the legal cases.&lt;br&gt;Notify the case vote in the court.&lt;br&gt;Take action according to the results." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hgocp0C8wLDLiAGPXzZ_-14">
+        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-4" value="Monitor the legal cases.&lt;br&gt;Notify the case vote in the court.&lt;br&gt;Take action according to the results." style="rounded=1;whiteSpace=wrap;html=1;" parent="hgocp0C8wLDLiAGPXzZ_-14" vertex="1">
           <mxGeometry x="10" y="230" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hgocp0C8wLDLiAGPXzZ_-13" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -172,7 +172,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-9" value="Monitor the audit log. Publish any moderation and bot related affairs in the &quot;Management Affairs Publish&quot; Channel&lt;br&gt;(Guild.&lt;em class=&quot;property&quot;&gt;&lt;/em&gt;audit_logs)&lt;span class=&quot;sig-paren&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hgocp0C8wLDLiAGPXzZ_-13">
+        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-9" value="Monitor the audit log. Publish any moderation and bot related affairs in the &quot;Management Affairs Publish&quot; Channel&lt;br&gt;(Guild.&lt;em class=&quot;property&quot;&gt;&lt;/em&gt;audit_logs)&lt;span class=&quot;sig-paren&quot;&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="hgocp0C8wLDLiAGPXzZ_-13" vertex="1">
           <mxGeometry x="10" y="70" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hgocp0C8wLDLiAGPXzZ_-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hgocp0C8wLDLiAGPXzZ_-21" target="hgocp0C8wLDLiAGPXzZ_-22" edge="1">
@@ -236,14 +236,17 @@
         <mxCell id="CugVqRCdkoVX9YdtHMD1-43" value="Voters: Option&amp;lt;list&amp;lt;int&amp;gt;&amp;gt;&lt;br&gt;(member.id)" style="rounded=0;whiteSpace=wrap;html=1;" parent="hgocp0C8wLDLiAGPXzZ_-53" vertex="1">
           <mxGeometry x="30" y="270" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-5" value="Agree Members: list&amp;lt;int&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hgocp0C8wLDLiAGPXzZ_-53">
+        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-5" value="Agree Members: list&amp;lt;int&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="hgocp0C8wLDLiAGPXzZ_-53" vertex="1">
           <mxGeometry x="30" y="310" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-6" value="Against Members: list&amp;lt;int&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hgocp0C8wLDLiAGPXzZ_-53">
+        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-6" value="Against Members: list&amp;lt;int&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="hgocp0C8wLDLiAGPXzZ_-53" vertex="1">
           <mxGeometry x="30" y="350" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-12" value="Jump URL: string" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hgocp0C8wLDLiAGPXzZ_-53">
+        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-12" value="Waiver Members: list&amp;lt;int&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="hgocp0C8wLDLiAGPXzZ_-53" vertex="1">
           <mxGeometry x="30" y="390" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-13" value="Jump URL: string" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hgocp0C8wLDLiAGPXzZ_-53">
+          <mxGeometry x="30" y="430" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CugVqRCdkoVX9YdtHMD1-1" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1120" y="80" width="190" height="740" as="geometry" />
@@ -698,7 +701,10 @@
         <mxCell id="YU63xsp-6MmmN9PyvZP0-13" value="Apologise publicly" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-390" y="780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YU63xsp-6MmmN9PyvZP0-15" value="How to determine whether the admin has apologised?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YU63xsp-6MmmN9PyvZP0-15" target="BigOB-g6q4JyU_0KOPlr-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YU63xsp-6MmmN9PyvZP0-15" value="How to determine whether the admin has apologised?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="-250" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YU63xsp-6MmmN9PyvZP0-20" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.98;rotation=-180;base=20;size=30;position=0.94;" parent="1" vertex="1">
@@ -784,20 +790,41 @@
         <mxCell id="38umOZy2QEPfSnPI1kEB-27" value="Permissions" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1300" y="70" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-7" value="If the punishment is &quot;kick&quot;, kick the user from this server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-7" value="If the punishment is &quot;kick&quot;, kick the user from this server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="1150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-8" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="hgocp0C8wLDLiAGPXzZ_-25" target="-JbkQZ2zJmaDXcBbrkoS-7">
+        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-8" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="hgocp0C8wLDLiAGPXzZ_-25" target="-JbkQZ2zJmaDXcBbrkoS-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="1200" as="sourcePoint" />
             <mxPoint x="300" y="1150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-10" value="Google Form to Discord webhook, vote to send invite link&lt;br&gt;(User.&lt;em class=&quot;property&quot;&gt;&lt;/em&gt;create_dm) (Not possible to get user that the bot has neven contacted)&lt;span class=&quot;sig-paren&quot;&gt;&lt;/span&gt;&lt;br&gt;Create one-time invite to #rules&lt;br&gt;discord.TextChannel.create_invite" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-10" value="Google Form to Discord webhook, vote to send invite link&lt;br&gt;(User.&lt;em class=&quot;property&quot;&gt;&lt;/em&gt;create_dm) (Not possible to get user that the bot has neven contacted)&lt;span class=&quot;sig-paren&quot;&gt;&lt;/span&gt;&lt;br&gt;Create one-time invite to #rules&lt;br&gt;discord.TextChannel.create_invite" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
           <mxGeometry x="-1500" y="1020" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-11" value="TODOs:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+        <mxCell id="-JbkQZ2zJmaDXcBbrkoS-11" value="TODOs:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
           <mxGeometry x="-1550" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1570" y="80" width="80" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-2" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=10;dy=30;" vertex="1" parent="BigOB-g6q4JyU_0KOPlr-1">
+          <mxGeometry width="80.00000000000001" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-3" value="Metadata" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BigOB-g6q4JyU_0KOPlr-1">
+          <mxGeometry x="10" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-6" value="Influence Ratio: float" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BigOB-g6q4JyU_0KOPlr-1">
+          <mxGeometry x="10" y="30" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BigOB-g6q4JyU_0KOPlr-1">
+          <mxGeometry x="10" y="70" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-14" value="Anonymous vote for dummies&lt;br&gt;The vote needs to be reflected real time&lt;br&gt;All the votes should be removed (hidden)&lt;br&gt;The user needs to definiely know that he has already voted even if he is a newbie." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="-1500" y="1150" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-15" value="Monitored by human" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="780" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
