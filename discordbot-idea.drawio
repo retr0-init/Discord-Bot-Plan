@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-10-21T01:07:05.846Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="t5fmWQ3d-qeJ0z9OHaQp" version="22.0.3" type="device">
+<mxfile host="Electron" modified="2023-10-21T18:25:57.146Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="hPtdUSyhvIE7hanmLiWd" version="22.0.3" type="device">
   <diagram name="Page-1" id="uLq_MlZxw3ZsoGOFZqPO">
-    <mxGraphModel dx="2359" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2505" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,6 +42,9 @@
         </mxCell>
         <mxCell id="-JbkQZ2zJmaDXcBbrkoS-2" value="Applied: bool" style="rounded=0;whiteSpace=wrap;html=1;" parent="CugVqRCdkoVX9YdtHMD1-11" vertex="1">
           <mxGeometry x="30" y="310" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hUt7c7pbHUo2_pdm1PSN-19" value="Related Case: uuid.UUID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CugVqRCdkoVX9YdtHMD1-11">
+          <mxGeometry x="30" y="350" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hgocp0C8wLDLiAGPXzZ_-30" value="" style="group;strokeWidth=2;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="610" y="80" width="190" height="740" as="geometry" />
@@ -245,8 +248,11 @@
         <mxCell id="-JbkQZ2zJmaDXcBbrkoS-12" value="Waiver Members: list&amp;lt;int&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="hgocp0C8wLDLiAGPXzZ_-53" vertex="1">
           <mxGeometry x="30" y="390" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BigOB-g6q4JyU_0KOPlr-13" value="Jump URL: string" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hgocp0C8wLDLiAGPXzZ_-53">
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-13" value="Jump URL: string" style="rounded=0;whiteSpace=wrap;html=1;" parent="hgocp0C8wLDLiAGPXzZ_-53" vertex="1">
           <mxGeometry x="30" y="430" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hUt7c7pbHUo2_pdm1PSN-16" value="Message ID: int" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hgocp0C8wLDLiAGPXzZ_-53">
+          <mxGeometry x="30" y="470" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CugVqRCdkoVX9YdtHMD1-1" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1120" y="80" width="190" height="740" as="geometry" />
@@ -289,6 +295,12 @@
         </mxCell>
         <mxCell id="38umOZy2QEPfSnPI1kEB-10" value="Judges: list&amp;lt;int&amp;gt;&lt;br&gt;(member.id)" style="rounded=0;whiteSpace=wrap;html=1;" parent="CugVqRCdkoVX9YdtHMD1-1" vertex="1">
           <mxGeometry x="30" y="430" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hUt7c7pbHUo2_pdm1PSN-17" value="Message ID: int" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CugVqRCdkoVX9YdtHMD1-1">
+          <mxGeometry x="30" y="510" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hUt7c7pbHUo2_pdm1PSN-18" value="Jump URL: string" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CugVqRCdkoVX9YdtHMD1-1">
+          <mxGeometry x="30" y="470" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CugVqRCdkoVX9YdtHMD1-72" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="CugVqRCdkoVX9YdtHMD1-9" target="CugVqRCdkoVX9YdtHMD1-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -701,7 +713,7 @@
         <mxCell id="YU63xsp-6MmmN9PyvZP0-13" value="Apologise publicly" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-390" y="780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BigOB-g6q4JyU_0KOPlr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YU63xsp-6MmmN9PyvZP0-15" target="BigOB-g6q4JyU_0KOPlr-15">
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="YU63xsp-6MmmN9PyvZP0-15" target="BigOB-g6q4JyU_0KOPlr-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YU63xsp-6MmmN9PyvZP0-15" value="How to determine whether the admin has apologised?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
@@ -805,26 +817,72 @@
         <mxCell id="-JbkQZ2zJmaDXcBbrkoS-11" value="TODOs:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
           <mxGeometry x="-1550" y="940" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BigOB-g6q4JyU_0KOPlr-1" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-1" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1570" y="80" width="80" height="740" as="geometry" />
         </mxCell>
-        <mxCell id="BigOB-g6q4JyU_0KOPlr-2" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=10;dy=30;" vertex="1" parent="BigOB-g6q4JyU_0KOPlr-1">
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-2" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=10;dy=30;" parent="BigOB-g6q4JyU_0KOPlr-1" vertex="1">
           <mxGeometry width="80.00000000000001" height="740" as="geometry" />
         </mxCell>
-        <mxCell id="BigOB-g6q4JyU_0KOPlr-3" value="Metadata" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BigOB-g6q4JyU_0KOPlr-1">
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-3" value="Metadata" style="rounded=0;whiteSpace=wrap;html=1;" parent="BigOB-g6q4JyU_0KOPlr-1" vertex="1">
           <mxGeometry x="10" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BigOB-g6q4JyU_0KOPlr-6" value="Influence Ratio: float" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BigOB-g6q4JyU_0KOPlr-1">
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-6" value="Influence Ratio: float" style="rounded=0;whiteSpace=wrap;html=1;" parent="BigOB-g6q4JyU_0KOPlr-1" vertex="1">
           <mxGeometry x="10" y="30" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BigOB-g6q4JyU_0KOPlr-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BigOB-g6q4JyU_0KOPlr-1">
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="BigOB-g6q4JyU_0KOPlr-1" vertex="1">
           <mxGeometry x="10" y="70" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BigOB-g6q4JyU_0KOPlr-14" value="Anonymous vote for dummies&lt;br&gt;The vote needs to be reflected real time&lt;br&gt;All the votes should be removed (hidden)&lt;br&gt;The user needs to definiely know that he has already voted even if he is a newbie." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-14" value="Anonymous vote for dummies&lt;br&gt;The vote needs to be reflected real time&lt;br&gt;All the votes should be removed (hidden)&lt;br&gt;The user needs to definiely know that he has already voted even if he is a newbie." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
           <mxGeometry x="-1500" y="1150" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="BigOB-g6q4JyU_0KOPlr-15" value="Monitored by human" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+        <mxCell id="BigOB-g6q4JyU_0KOPlr-15" value="Monitored by human" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="-120" y="780" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hUt7c7pbHUo2_pdm1PSN-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hUt7c7pbHUo2_pdm1PSN-1" target="hUt7c7pbHUo2_pdm1PSN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hUt7c7pbHUo2_pdm1PSN-1" value="Vote created" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1570" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hUt7c7pbHUo2_pdm1PSN-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hUt7c7pbHUo2_pdm1PSN-2" target="hUt7c7pbHUo2_pdm1PSN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hUt7c7pbHUo2_pdm1PSN-2" value="Publish message to the specific channel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hUt7c7pbHUo2_pdm1PSN-3" value="Bot will react to the message with specific emojis (UP, DOWN, WAIVER)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hUt7c7pbHUo2_pdm1PSN-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hUt7c7pbHUo2_pdm1PSN-6" target="hUt7c7pbHUo2_pdm1PSN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hUt7c7pbHUo2_pdm1PSN-6" value="User react to the message" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1570" y="1540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hUt7c7pbHUo2_pdm1PSN-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hUt7c7pbHUo2_pdm1PSN-10" target="hUt7c7pbHUo2_pdm1PSN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hUt7c7pbHUo2_pdm1PSN-10" value="Push some data to database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hUt7c7pbHUo2_pdm1PSN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hUt7c7pbHUo2_pdm1PSN-11" target="hUt7c7pbHUo2_pdm1PSN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hUt7c7pbHUo2_pdm1PSN-11" value="on_reaction_add&lt;br&gt;event triggerred" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hUt7c7pbHUo2_pdm1PSN-14" value="Reaction removed.&lt;br&gt;Show the reaction in the other way anonymously" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1050" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hUt7c7pbHUo2_pdm1PSN-20" value="" style="curved=1;endArrow=classic;html=1;rounded=0;startArrow=classic;startFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="hUt7c7pbHUo2_pdm1PSN-19" target="CugVqRCdkoVX9YdtHMD1-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="490" as="sourcePoint" />
+            <mxPoint x="1370" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1330" y="460" />
+              <mxPoint x="1330" y="350" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
